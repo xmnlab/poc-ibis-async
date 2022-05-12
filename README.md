@@ -1,7 +1,19 @@
 # poc-ibis-async
 
+## Create initial DB
+
+```bash
+make recreate-db-sqlite
+```
+
 ## Start the server
 
 ```bash
-uvicorn ibis_async_app.main:app --reload
+make run-server
+```
+
+## Tests
+
+```bash
+make run-tests
 ```
