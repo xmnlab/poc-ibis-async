@@ -1,0 +1,8 @@
+name: poc-ibis-async
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python
+  - poetry
+  - psycopg2
