@@ -10,4 +10,4 @@ recreate-db-sqlite:
 run-tests:
 	echo "" > /tmp/ibis-async.log
 	cd tests/scripts
-	./test_endpoint.sh & ./test_endpoint.sh ./test_endpoint.sh
+	bash -c "./test_endpoint.sh & ./test_endpoint.sh & ./test_endpoint.sh & ./test_endpoint.sh &"
